@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="text-5xl text-center mt-6 text-orange-500">Discounting Calculation</h1>
+   <section class="grid grid-cols-2 w-3/4 mx-auto bg-sky-400 mt-6">
+    <div id="container" class="w-3/4 mx-auto mt-12 rounded-lg p-8">
+
+        <h2 class="mb-2 font-medium text-2xl">Price: <span id="price">1000</span></h2>
+        <button id="btn-disc" class="bg-amber-500 py-2 px-3 rounded-lg">Get 30% Discount</button>
+        <h2 class="mt-6 font-medium text-2xl">Pay: <span id="pay"></span></h2>
+    </div>
+    <div id="container" class="w-3/4 mx-auto mt-12 rounded-lg p-8">
+
+        <h2 class="mb-2 font-medium text-2xl">Price: <span id="price2">1000</span></h2>
+        <input id="input" type="text">
+        <button id="btn-disc2" class="bg-amber-500 py-2 px-3 rounded-lg">Get 30% Discount</button>
+        <h2 class="mt-6 font-medium text-2xl">Pay: <span id="pay2"></span></h2>
+    </div>
+   </section>
+   <div class="mt-12 w-12 mx-auto">
+    <button id="btn-next" class="bg-sky-400 px-3 py-2 rounded-lg">Next</button>
+</div>
+
+    <script src="./js/disc.js"></script>
+    
+</body>
+</html>
